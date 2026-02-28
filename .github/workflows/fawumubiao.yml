@@ -1,10 +1,9 @@
 name: fawumubiao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
-jobs:  # 23149
+    - cron: '16 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +11,8 @@ jobs:  # 23149
       - uses: actions/checkout@v4
       - name: fawumubiao
         env:
-          f4: ${{ secrets.f4 }}
+          fwpb11: ${{ secrets.fwpb11 }}
         run: |
-          echo $f4 | jq -r .dlbsk33 | /bin/bash
-          echo $g4575 | jq -r .e04387 | /bin/bash
-          echo $dbge673 | jq -r .ahil0124 | /bin/bash
-          echo $d0998 | jq -r .uud991 | /bin/bash
-          echo $me91389 | jq -r .k87243 | /bin/bash
-          echo $ih92 | jq -r .z46479 | /bin/bash
-          echo $iuzyn8100 | jq -r .ztln793 | /bin/bash
-          echo $wpv68242 | jq -r .b1157 | /bin/bash
-          echo $wy8 | jq -r .beg2 | /bin/bash
+          echo $fwpb11 | jq -r .vysev70293 | /bin/bash
+          echo $oss68 | jq -r .ogla89910 | /bin/bash
 
